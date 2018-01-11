@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="br.ufba.fabiocosta.dogapp.DogPhotoActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewDog1"
+        android:layout_width="193dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewDog3"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewDog2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/imageViewDog2"
+        android:layout_width="193dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewDog4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDog1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/imageViewDog3"
+        android:layout_width="193dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewDog5"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewDog4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDog1"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/imageViewDog4"
+        android:layout_width="193dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewDog6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDog3"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDog2"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/imageViewDog5"
+        android:layout_width="193dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewDog6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDog3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dog" />
+
+    <ImageView
+        android:id="@+id/imageViewDog6"
+        android:layout_width="193dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDog5"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDog4"
+        app:srcCompat="@drawable/dog" />
+
+</android.support.constraint.ConstraintLayout>

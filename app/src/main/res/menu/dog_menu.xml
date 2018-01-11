@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/breeds"
+        android:icon="@drawable/favorite"
+        android:title="@string/menu_breeds"/>
+    <item
+        android:id="@+id/favorite"
+        android:icon="@drawable/favorite"
+        android:title="@string/menu_favorite"/>
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/favorite"
+        android:title="@string/menu_history"/>
+    <item android:id="@+id/about"
+        android:title="@string/menu_about"
+        android:iconTint="@color/title"/>
+</menu>

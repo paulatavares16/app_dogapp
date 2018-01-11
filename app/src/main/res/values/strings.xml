@@ -1,0 +1,17 @@
+<resources>
+    <string name="title_activity_Main">Dog Breed</string>
+    <string name="title_activity_favorite">Favoritos</string>
+    <string name="title_activity_history">Histórico</string>
+    <string name="title_activity_about">Sobre</string>
+    <string name="pref_key_favorites">favorites</string>
+    <string name="pref_key_histories">histories</string>
+    <string name="menu_breeds">Raças</string>
+    <string name="menu_favorite">Favoritos</string>
+    <string name="menu_history">Histórico</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_about">Sobre</string>
+    <string name="about_description">O aplicativo oficial do PabioApps é seguro e grátis.
+    Nele você tem a facilidade de consultar qualquer raça do seu melhor amigo.
+    Além disso, você pode criar uma lista das raças que você mais curti ;)
+    </string>
+</resources>
